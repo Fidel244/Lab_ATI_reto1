@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 5%;
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+
+.description{
+    display: absolute;
+    top: 0;
+    height: 250px;
+    padding: 40px;
+    background-color: rgb(194, 248, 247);
+    width: 800px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.description p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2%;
+}
+
+
+a:link{
+    color: orange;
+}
+a:visited{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.image {
+    display: inline-block;
+    border-top-left-radius: 40%;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 340px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.titulo{
+    color: rgb(238, 175, 27);
+    font-weight: bold;
+}
+/*estilos index*/
+
+
+header{
+    margin-bottom: 10px;
+}
+
+nav {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: lightblue;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.lista_nav li {
+text-align: center;
+/*background-color: red;*/
+display: inline-block;
+width: 30.33%;
+border-left: 1px solid white;
+cursor: default;
+}
+
+
+.lista_nav  span{
+    font-size: 1rem;
+}
+
+form button{
+    width: 30%;
+    height: 25px;
+    border-radius: 5%;
+    border: 1px solid rgb(198, 238, 138);
+    background-color: rgb(198, 238, 138);
+    
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(161, 245, 119);
+}
+
+
+.lista_section{
+    list-style-type: none;
+    padding: 2%;
+    background-color: rgb(231, 246, 251);
+    text-align: center;
+}
+
+.lista_section li {
+    background-color: rgb(191, 198, 208);
+    margin-bottom: 10px;
+    padding: 2%;
+    display: inline-block;
+    margin: 5px 50px;
+    transition: background-color, transform, color, 2s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lista_section li:hover{
+    background-color: #99c5dd;
+    transform: rotate(30deg);
+    color: green;
+}
+
+.lista_section img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-ucv p{
+    margin-top: 1%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+}
