@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fidel Serpa</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+
+            display: flex;
+            height: 400px;
+            align-items: center;
+        }
+
+        .description{
+            display: absolute;
+            top: 0;
+            height: 250px;
+            padding: 40px;
+            background-color: rgb(194, 248, 247);
+            width: 800px;
+            border: 1px solid black;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .description p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 2%;
+        }
+
+
+        a:link{
+            color: orange;
+        }
+        a:visited{
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    
+        .image {
+            display: inline-block;
+            border-top-left-radius: 40%;
+            flex: 0 0 auto;
+            margin-right: 10px;
+            width: 340px;
+        }
+
+        li{
+            font-size: 20px;
+        }
+
+        .titulo{
+            color: rgb(238, 175, 27);
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="fidel.jpg" alt="fidel" class="image">
+        <div class="description">
+                    <h1 class="titulo">Fidel Serpa</h1>
+                    <p>Soy Fidel Serpa, estudiante de la escuela de computación que está cursando ATI I y espero poder adquirir los conocimientos necesarios para convertirse en un buen desarrollador web</p>
+                    <ul>
+                        <li>Mi color favorito: Azul</li>
+                        <li>Mi libro favorito: El caballero de la armadura oxidada</li>
+                        <li>Estilo de música preferida es: Heavy Metal</li>
+                        <li>Mis video juegos favoritos son: God of War,  FIFA, Sifu y Battlefield</li>
+                        <li>Lenguajes aprendidos: C++, Python, Java y Haskell</li>
+                    </ul>
+                    <p>Si necesita comunicarse conmigo, diríjase a <a href="mailto:supermagnifico090@gmail.com" >supermagnifico090@gmail.com</a>.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
