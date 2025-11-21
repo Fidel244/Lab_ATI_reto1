@@ -1,0 +1,13 @@
+const perfil = {	
+	"nombre":"Fidel Serpa",
+	"descripcion":"Soy estudiante de la escuela de computación que está cursando ATI I y espero poder adquirir los conocimientos necesarios para convertirse en un buen desarrollador web",
+	"color": "Azul",
+	"libro": ["El caballero de la armadura oxidada"],
+	"musica": ["Heavy Metal"],
+	"video_juego": ["God of War", "FIFA", "Sifu", "Battlefield"],
+	"lenguajes":["Python", "Java", "C++", "R","Haskell"],
+	"email":"supermagnifico090@gmail.com",
+	"ci":"26476320",
+	"genero": "masculino",
+	"fecha_nacimiento":"24/04/1998"
+}
